@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://btc-sim-api-svc-production.up.railway.app/";
+const BASE_URL = "http://0.0.0.0:8000/";
 
 const endpoint = `${BASE_URL}markets`;
 const endpointV2 = `${BASE_URL}markets_v2`;
