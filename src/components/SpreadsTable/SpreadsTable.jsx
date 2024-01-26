@@ -17,7 +17,7 @@ export default function SpreadsTable() {
         ) : isError ? (
           <ErrorMarketsSpreads />
         ) : (
-          data && data.map((market, index) => (
+          data && data?.history?.map((market, index) => (
             <SpreadCard key={index} market={market} />
           ))
         )}
